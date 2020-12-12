@@ -1,0 +1,481 @@
+<!DOCTYPE html>
+  <html>
+    <head>
+      <!--Import Google Icon Font-->
+      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+      <!--Import materialize.css-->
+      <link type="text/css" rel="stylesheet" href="materialize.min.css" media="screen,projection"/>
+      <!--Let browser know website is optimized for mobile-->
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+      <style>
+
+      .page-footer {
+       		background-color: teal;
+   		}
+
+   		.nav-wrapper {
+   			background-color: teal;
+   		}
+
+   		body {
+    		display: flex;
+    		min-height: 100vh;
+    		flex-direction: column;
+ 		}
+
+  		main {
+    		flex: 1 0 auto;
+  		}
+
+      img {
+        height: 300px;
+        width: 300px;
+      }
+
+      .card {
+        width: 93%;
+        float: left;
+      }
+
+      .pagination ul{
+        color: teal;
+      }
+
+      </style>
+
+    </head>
+
+    <body>
+
+    	<header>
+
+    		<nav>
+    			<div class="nav-wrapper">
+      				<a href="#" class="brand-logo center">Recommendations</a>
+      				<ul id="nav-mobile" class="left hide-on-med-and-down">
+        				<li><a href="index.html">Home</a></li>
+        				<li class="active"><a href="Recommendations.html">Recommendations</a></li>
+      				</ul>
+   			 	</div>
+  			</nav>
+
+  		</header>
+
+  		<main>
+
+      <center>
+
+        <h4 style="color:teal">Billboard Top 100 Artists Of The Decade</h4>
+
+        <div class="row">
+          <div class="col m3">
+            <div class="card">
+              <div class="card-image">
+                <img src="https://www.biography.com/.image/t_share/MTI5ODc2MDQ1Njg2OTYwMDk4/meghan-trainor-shutterstock_233351374_600x600jpg.jpg">
+                <span class="card-title" style="width:100%; background: rgba(0, 0, 0, 0.5);">40: Meghan Trainor</span>
+              </div>
+              <div class="card-content">
+                <a class='dropdown-trigger btn' href='#' data-target='dropdown1'>Genres You May Like:</a>
+                <ul id='dropdown1' class='dropdown-content'>
+                <li><a href="DancePop.html">Dance-Pop</a></li>
+                <li class="divider" tabindex="-1"></li>
+                <li><a href="ContemporaryR&B.html">Contemporary R&B</a></li>
+                <li class="divider" tabindex="-1"></li>
+                <li><a href="PopSoul.html">Pop Soul</a></li>
+              </div>
+            </div>
+          </div>
+
+          <div class="col m3">
+            <div class="card">
+              <div class="card-image">
+                <img src="https://i.guim.co.uk/img/media/606cd93c02c8d30688b17c737c0902cd16df8805/0_79_2324_1394/master/2324.jpg?width=1200&height=1200&quality=85&auto=format&fit=crop&s=3d627bfc0991b55f392d0efe79a26a88">
+                <span class="card-title" style="width:100%; background: rgba(0, 0, 0, 0.5);">39: Jay-Z</span>
+              </div>
+              <div class="card-content">
+                <a class='dropdown-trigger btn' href='#' data-target='dropdown2'>Genres You May Like:</a>
+                <ul id='dropdown2' class='dropdown-content'>
+                <li><a href="PopRap.html">Pop Rap</a></li>
+                <li class="divider" tabindex="-1"></li>
+                <li><a href="GangstaRap.html">Gangsta Rap</a></li>
+                <li class="divider" tabindex="-1"></li>
+                <li><a href="HardcoreHipHop.html">Hardcore Hip Hop</a></li>
+              </div>
+            </div>
+          </div>
+
+        <div class="col m3">
+            <div class="card">
+              <div class="card-image">
+                <img src="https://pyxis.nymag.com/v1/imgs/3b6/d67/84797c3613ee95604b9262ce0823c67a2e-21-selena-gomez.rsquare.w1200.jpg">
+                <span class="card-title" style="width:100%; background: rgba(0, 0, 0, 0.5);">38: Selena Gomez</span>
+              </div>
+              <div class="card-content">
+                <a class='dropdown-trigger btn' href='#' data-target='dropdown3'>Genres You May Like:</a>
+                <ul id='dropdown3' class='dropdown-content'>
+                <li><a href="DancePop.html">Dance-Pop</a></li>
+                <li class="divider" tabindex="-1"></li>
+                <li><a href="Electropop.html">Electropop</a></li>
+                <li class="divider" tabindex="-1"></li>
+                <li><a href="ContemporaryR&B.html">Contemporary R&B</a></li>
+              </div>
+            </div>
+          </div>
+
+        <div class="col m3">
+            <div class="card">
+              <div class="card-image">
+                <img src="https://i.guim.co.uk/img/media/3b3b3bb5f4b08cc5718eab1bc3bae9c305eb2a9f/0_212_8256_4954/master/8256.jpg?width=1200&height=1200&quality=85&auto=format&fit=crop&s=3cfdd11024e684f626f62f4aed2fb850">
+                <span class="card-title" style="width:100%; background: rgba(0, 0, 0, 0.5);">37: Mumford & Sons</span>
+              </div>
+              <div class="card-content">
+                <a class='dropdown-trigger btn' href='#' data-target='dropdown4'>Genres You May Like:</a>
+                <ul id='dropdown4' class='dropdown-content'>
+                <li><a href="IndieFolk.html">Indie Folk</a></li>
+                <li class="divider" tabindex="-1"></li>
+                <li><a href="FolkPop.html">Folk Pop</a></li>
+                <li class="divider" tabindex="-1"></li>
+                <li><a href="PopRock.html">Pop Rock</a></li>
+              </div>
+            </div>
+          </div>
+
+          <div class="col m3">
+            <div class="card">
+              <div class="card-image">
+                <img src="https://cdn.vox-cdn.com/thumbor/Ay8ed8S-QFH7QDUJJAHXpRgbOyU=/1400x1400/filters:format(jpeg)/cdn.vox-cdn.com/uploads/chorus_asset/file/19885432/future_wireimage.jpg">
+                <span class="card-title" style="width:100%; background: rgba(0, 0, 0, 0.5);">36: Future</span>
+              </div>
+              <div class="card-content">
+                <a class='dropdown-trigger btn' href='#' data-target='dropdown5'>Genres You May Like:</a>
+                <ul id='dropdown5' class='dropdown-content'>
+                <li><a href="Trap.html">Trap</a></li>
+                <li class="divider" tabindex="-1"></li>
+                <li><a href="SouthernHipHop.html">Southern Hip Hop</a></li>
+                <li class="divider" tabindex="-1"></li>
+                <li><a href="PopRap.html">Pop Rap</a></li>
+              </div>
+            </div>
+          </div>
+
+          <div class="col m3">
+            <div class="card">
+              <div class="card-image">
+                <img src="https://fashionista.com/.image/ar_1:1%2Cc_fill%2Ccs_srgb%2Cfl_progressive%2Cq_auto:good%2Cw_1200/MTc2NzI2NDg2MDU5ODUzNjkw/cardi-b-the-road-to-f9-global-fan-extravaganza.jpg">
+                <span class="card-title" style="width:100%; background: rgba(0, 0, 0, 0.5);">35: Cardi B</span>
+              </div>
+              <div class="card-content">
+                <a class='dropdown-trigger btn' href='#' data-target='dropdown6'>Genres You May Like:</a>
+                <ul id='dropdown6' class='dropdown-content'>
+                <li><a href="Trap.html">Trap</a></li>
+                <li class="divider" tabindex="-1"></li>
+                <li><a href="PopRap.html">Pop Rap</a></li>
+                <li class="divider" tabindex="-1"></li>
+                <li><a href="HardcoreHipHop.html">Hardcore Hip Hop</a></li>
+              </div>
+            </div>
+          </div>
+
+          <div class="col m3">
+            <div class="card">
+              <div class="card-image">
+                <img src="https://i.guim.co.uk/img/media/a0fb9214769b864be4e340413e6bfd7422e4ee05/0_43_2202_1321/master/2202.jpg?width=1200&height=1200&quality=85&auto=format&fit=crop&s=ecb1f2b28a90114bebf048aeebf969b3">
+                <span class="card-title" style="width:100%; background: rgba(0, 0, 0, 0.5);">34: Shawn Mendes</span>
+              </div>
+              <div class="card-content">
+                <a class='dropdown-trigger btn' href='#' data-target='dropdown7'>Genres You May Like:</a>
+                <ul id='dropdown7' class='dropdown-content'>
+                <li><a href="PopRock.html">Pop Rock</a></li>
+                <li class="divider" tabindex="-1"></li>
+                <li><a href="ContemporaryR&B.html">Contemporary R&B</a></li>
+                <li class="divider" tabindex="-1"></li>
+                <li><a href="NuDisco.html">Nu-Disco</a></li>
+              </div>
+            </div>
+          </div>
+
+          <div class="col m3">
+            <div class="card">
+              <div class="card-image">
+                <img src="https://assets.vogue.com/photos/5b29546447b9940fb269b5f2/1:1/w_3596,h_3596,c_limit/khalid-vogue-july-2018-issue.jpg">
+                <span class="card-title" style="width:100%; background: rgba(0, 0, 0, 0.5);">33: Khalid</span>
+              </div>
+              <div class="card-content">
+                <a class='dropdown-trigger btn' href='#' data-target='dropdown8'>Genres You May Like:</a>
+                <ul id='dropdown8' class='dropdown-content'>
+                <li><a href="ContemporaryR&B.html">Contemporary R&B</a></li>
+                <li class="divider" tabindex="-1"></li>
+                <li><a href="AlternativeR&B.html">Alternative R&B</a></li>
+                <li class="divider" tabindex="-1"></li>
+                <li><a href="Electropop.html">Electropop</a></li>
+              </div>
+            </div>
+          </div>
+
+          <div class="col m3">
+            <div class="card">
+              <div class="card-image">
+                <img src="https://mtv.mtvnimages.com/uri/mgid:ao:image:mtv.com:694256?quality=0.8&format=jpg">
+                <span class="card-title" style="width:100%; background: rgba(0, 0, 0, 0.5);">32: Travis Scott</span>
+              </div>
+              <div class="card-content">
+                <a class='dropdown-trigger btn' href='#' data-target='dropdown9'>Genres You May Like:</a>
+                <ul id='dropdown9' class='dropdown-content'>
+                <li><a href="Trap.html">Trap</a></li>
+                <li class="divider" tabindex="-1"></li>
+                <li><a href="SouthernHipHop.html">Southern Hip Hop</a></li>
+                <li class="divider" tabindex="-1"></li>
+                <li><a href="ExperimentalHipHop.html">Experimental Hip Hop</a></li>
+              </div>
+            </div>
+          </div>
+
+          <div class="col m3">
+            <div class="card">
+              <div class="card-image">
+                <img src="https://gray-wabi-prod.cdn.arcpublishing.com/resizer/TtIHCguJD2ASjzwZ6k4c90zYCgk=/1200x1200/smart/cloudfront-us-east-1.images.arcpublishing.com/gray/PPR4LMKOHRMX3ARLDKYJ4SPT6E.jpg">
+                <span class="card-title" style="width:100%; background: rgba(0, 0, 0, 0.5);">31: Blake Shelton</span>
+              </div>
+              <div class="card-content">
+                <a class='dropdown-trigger btn' href='#' data-target='dropdown10'>Genres You May Like:</a>
+                <ul id='dropdown10' class='dropdown-content'>
+                <li><a href="ContemporaryCountry.html">Contemporary Country</a></li>
+                <li class="divider" tabindex="-1"></li>
+                <li><a href="CountryPop.html">Country Pop</a></li>
+                <li class="divider" tabindex="-1"></li>
+                <li><a href="CountryRock.html">Country Rock</a></li>
+              </div>
+            </div>
+          </div>
+
+          <div class="col m3">
+            <div class="card">
+              <div class="card-image">
+                <img src="https://s.france24.com/media/display/9952ab72-1fa5-11e9-8774-005056bff430/w:1280/p:1x1/chris-brown-m.jpg">
+                <span class="card-title" style="width:100%; background: rgba(0, 0, 0, 0.5);">30: Chris Brown</span>
+              </div>
+              <div class="card-content">
+                <a class='dropdown-trigger btn' href='#' data-target='dropdown11'>Genres You May Like:</a>
+                <ul id='dropdown11' class='dropdown-content'>
+                <li><a href="ContemporaryR&B.html">Contemporary R&B</a></li>
+                <li class="divider" tabindex="-1"></li>
+                <li><a href="PopRap.html">Pop Rap</a></li>
+                <li class="divider" tabindex="-1"></li>
+                <li><a href="DancePop.html">Dance-Pop</a></li>
+              </div>
+            </div>
+          </div>
+
+          <div class="col m3">
+            <div class="card">
+              <div class="card-image">
+                <img src="https://pyxis.nymag.com/v1/imgs/c46/d49/a43795b9aca6bfe7833608db7d8f94eb45-lil-wayne.rsquare.w1200.jpg">
+                <span class="card-title" style="width:100%; background: rgba(0, 0, 0, 0.5);">29: Lil Wayne</span>
+              </div>
+              <div class="card-content">
+                <a class='dropdown-trigger btn' href='#' data-target='dropdown12'>Genres You May Like:</a>
+                <ul id='dropdown12' class='dropdown-content'>
+                <li><a href="SouthernHipHop.html">Southern Hip Hop</a></li>
+                <li class="divider" tabindex="-1"></li>
+                <li><a href="Trap.html">Trap</a></li>
+                <li class="divider" tabindex="-1"></li>
+                <li><a href="GangstaRap.html">Gangsta Rap</a></li>
+              </div>
+            </div>
+          </div>
+
+          <div class="col m3">
+            <div class="card">
+              <div class="card-image">
+                <img src="https://www.coupdemainmagazine.com/sites/default/files/styles/large_square/public/article/14902/hero-14902-1124170739.jpg?itok=Og2nmdzQ">
+                <span class="card-title" style="width:100%; background: rgba(0, 0, 0, 0.5);">28: Twenty One Pilots</span>
+              </div>
+              <div class="card-content">
+                <a class='dropdown-trigger btn' href='#' data-target='dropdown13'>Genres You May Like:</a>
+                <ul id='dropdown13' class='dropdown-content'>
+                <li><a href="IndiePop.html">Indie Pop</a></li>
+                <li class="divider" tabindex="-1"></li>
+                <li><a href="PopRock.html">Pop Rock</a></li>
+                <li class="divider" tabindex="-1"></li>
+                <li><a href="PopRap.html">Pop Rap</a></li>
+              </div>
+            </div>
+          </div>
+
+          <div class="col m3">
+            <div class="card">
+              <div class="card-image">
+                <img src="https://i.guim.co.uk/img/media/df05e91e01a10abef54ceb18b59447d633dfa1d6/160_38_1831_1099/master/1831.jpg?width=1200&height=1200&quality=85&auto=format&fit=crop&s=a5f26829a6ebe32f3b71dfba9e8daff7">
+                <span class="card-title" style="width:100%; background: rgba(0, 0, 0, 0.5);">27: Florida Georgia Line</span>
+              </div>
+              <div class="card-content">
+                <a class='dropdown-trigger btn' href='#' data-target='dropdown14'>Genres You May Like:</a>
+                <ul id='dropdown14' class='dropdown-content'>
+                <li><a href="CountryPop.html">Country Pop</a></li>
+                <li class="divider" tabindex="-1"></li>
+                <li><a href="ContemporaryCountry.html">Contemporary Country</a></li>
+                <li class="divider" tabindex="-1"></li>
+                <li><a href="CountryRock.html">Country Rock</a></li>
+              </div>
+            </div>
+          </div>
+
+          <div class="col m3">
+            <div class="card">
+              <div class="card-image">
+                <img src="https://media.pitchfork.com/photos/5e3cb7a4a42e4e000882e2bf/1:1/w_1000,h_1000,c_limit/Kesha-GettyImages-1049137758.jpg">
+                <span class="card-title" style="width:100%; background: rgba(0, 0, 0, 0.5);">26: Kesha</span>
+              </div>
+              <div class="card-content">
+                <a class='dropdown-trigger btn' href='#' data-target='dropdown15'>Genres You May Like:</a>
+                <ul id='dropdown15' class='dropdown-content'>
+                <li><a href="Electropop.html">Electropop</a></li>
+                <li class="divider" tabindex="-1"></li>
+                <li><a href="PopRock.html">Pop Rock</a></li>
+                <li class="divider" tabindex="-1"></li>
+                <li><a href="PopSoul.html">Pop Soul</a></li>
+              </div>
+            </div>
+          </div>
+
+          <div class="col m3">
+            <div class="card">
+              <div class="card-image">
+                <img src="https://media1.popsugar-assets.com/files/thumbor/PBy2zXRdr51Qg_vwhZLtFF6L-eo/13x236:3234x3457/fit-in/2048xorig/filters:format_auto-!!-:strip_icc-!!-/2020/02/14/835/n/1922398/7ab0f7b25e46eed87f4f59.32018647_/i/Sam-Smith.jpg">
+                <span class="card-title" style="width:100%; background: rgba(0, 0, 0, 0.5);">25: Sam Smith</span>
+              </div>
+              <div class="card-content">
+                <a class='dropdown-trigger btn' href='#' data-target='dropdown16'>Genres You May Like:</a>
+                <ul id='dropdown16' class='dropdown-content'>
+                <li><a href="PopSoul.html">Pop Soul</a></li>
+                <li class="divider" tabindex="-1"></li>
+                <li><a href="ContemporaryR&B.html">Contemporary R&B</a></li>
+                <li class="divider" tabindex="-1"></li>
+                <li><a href="DancePop.html">Dance-Pop</a></li>
+              </div>
+            </div>
+          </div>
+
+          <div class="col m3">
+            <div class="card">
+              <div class="card-image">
+                <img src="https://akns-images.eonline.com/eol_images/Entire_Site/2012101/600.aldean.cm.11112.jpg?fit=around|1200:1200&output-quality=90&crop=1200:1200;center,top">
+                <span class="card-title" style="width:100%; background: rgba(0, 0, 0, 0.5);">24: Jason Aldean</span>
+              </div>
+              <div class="card-content">
+                <a class='dropdown-trigger btn' href='#' data-target='dropdown17'>Genres You May Like:</a>
+                <ul id='dropdown17' class='dropdown-content'>
+                <li><a href="ContemporaryCountry.html">Contemporary Country</a></li>
+                <li class="divider" tabindex="-1"></li>
+                <li><a href="CountryRock.html">Country Rock</a></li>
+                <li class="divider" tabindex="-1"></li>
+                <li><a href="SouthernRock.html">Southern Rock</a></li>
+              </div>
+            </div>
+          </div>
+
+          <div class="col m3">
+            <div class="card">
+              <div class="card-image">
+                <img src="https://pyxis.nymag.com/v1/imgs/929/e92/c17cd81281788bd8b2870ce571f64419aa-beyonce-biden.rsquare.w1200.jpg">
+                <span class="card-title" style="width:100%; background: rgba(0, 0, 0, 0.5);">23: Beyonce</span>
+              </div>
+              <div class="card-content">
+                <a class='dropdown-trigger btn' href='#' data-target='dropdown18'>Genres You May Like:</a>
+                <ul id='dropdown18' class='dropdown-content'>
+                <li><a href="ContemporaryR&B.html">Contemporary R&B</a></li>
+                <li class="divider" tabindex="-1"></li>
+                <li><a href="PopRap.html">Pop Rap</a></li>
+                <li class="divider" tabindex="-1"></li>
+                <li><a href="DancePop.html">Dance-Pop</a></li>
+              </div>
+            </div>
+          </div>
+
+          <div class="col m3">
+            <div class="card">
+              <div class="card-image">
+                <img src="https://i.guim.co.uk/img/media/150b3e240fafef8b2d8619caabe45223498a8864/112_81_2517_1510/master/2517.jpg?width=1200&height=1200&quality=85&auto=format&fit=crop&s=8409be329ff78fb7e61aa53eaed48ffb">
+                <span class="card-title" style="width:100%; background: rgba(0, 0, 0, 0.5);">22: Lady A</span>
+              </div>
+              <div class="card-content">
+                <a class='dropdown-trigger btn' href='#' data-target='dropdown19'>Genres You May Like:</a>
+                <ul id='dropdown19' class='dropdown-content'>
+                <li><a href="CountryPop.html">Country Pop</a></li>
+                <li class="divider" tabindex="-1"></li>
+                <li><a href="PopRock.html">Pop Rock</a></li>
+                <li class="divider" tabindex="-1"></li>
+                <li><a href="AdultContemporary.html">Adult Contemporary</a></li>
+              </div>
+            </div>
+          </div>
+
+          <div class="col m3">
+            <div class="card">
+              <div class="card-image">
+                <img src="https://s.wsj.net/public/resources/images/BN-US957_KENDRI_8SR_20170818110739.jpg">
+                <span class="card-title" style="width:100%; background: rgba(0, 0, 0, 0.5);">21: Kendrick Lamar</span>
+              </div>
+              <div class="card-content">
+                <a class='dropdown-trigger btn' href='#' data-target='dropdown20'>Genres You May Like:</a>
+                <ul id='dropdown20' class='dropdown-content'>
+                <li><a href="ConsciousHipHop.html">Conscious Hip Hop</a></li>
+                <li class="divider" tabindex="-1"></li>
+                <li><a href="JazzRap.html">Jazz Rap</a></li>
+                <li class="divider" tabindex="-1"></li>
+                <li><a href="HardcoreHipHop.html">Hardcore Hip Hop</a></li>
+              </div>
+            </div>
+          </div>
+
+      </div>
+
+      <ul class="pagination">
+    	<li class="waves-effect"><a href="recommendations3.html"><i class="material-icons">chevron_left</i></a></li>
+    	<li class="waves-effect"><a href="recommendations.html">1</a></li>
+    	<li class="waves-effect"><a href="recommendations2.html">2</a></li>
+    	<li class="waves-effect"><a href="recommendations3.html">3</a></li>
+   		<li class="active teal"><a href="recommendations4.html">4</a></li>
+    	<li class="waves-effect"><a href="recommendations5.html">5</a></li>
+    	<li class="waves-effect"><a href="recommendations5.html"><i class="material-icons">chevron_right</i></a></li>
+  	  </ul>
+
+      </center>
+
+  		</main>
+        
+  		<footer class="page-footer">
+          <div class="container">
+            <div class="row">
+              <div class="col l6 s12">
+                <h5 class="white-text">2010s Music Recommendation Machine</h5>
+                <p class="grey-text text-lighten-4">This website was created by a student at Upper Canada College as part of the MYP Year 10 Personal Project. Enjoy!</p>
+              </div>
+              <div class="col l4 offset-l2 s12">
+                <h5 class="white-text">Other Sites To Help You Find New Music:</h5>
+                <ul>
+                  <li><a class="grey-text text-lighten-3" href="https://rateyourmusic.com/">RateYourMusic</a></li>
+                  <li><a class="grey-text text-lighten-3" href="https://www.albumoftheyear.org/">AOTY</a></li>
+                  <li><a class="grey-text text-lighten-3" href="https://bandcamp.com/">Bandcamp</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="footer-copyright">
+            <div class="container">
+            © 2020 Edwin Kim
+            </div>
+          </div>
+        </footer>
+
+        <!--JavaScript at end of body for optimized loading-->
+    	<script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+      <script src="materialize.min.js"></script>
+      <script src="init.js"></script>
+    	
+
+    	</script>
+    </body>
+  </html>
+
